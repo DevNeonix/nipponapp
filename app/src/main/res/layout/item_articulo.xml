@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+android:layout_weight="10">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp">
+        <ImageView
+                android:layout_width="75sp"
+                android:layout_height="75sp"
+                android:src="@drawable/crane"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10sp"
+            android:layout_weight="6">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo"
+                android:textSize="10sp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollHorizontally="false"
+                android:text="descripcion asdas dasd asd asd asda s asda das das dasd asd asdasdadasdasdadssadasdasdasd"
+                android:textSize="10sp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="marca"
+                android:textSize="10sp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="precio"
+                android:textSize="10sp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+        android:gravity="center">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_add_white_24dp"
+                android:layout_margin="4sp"
+                android:background="#2196F3"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:src="@drawable/ic_remove_white_24dp" android:background="#2196F3" android:id="@+id/imageView"
+        />
+    </LinearLayout>
+</LinearLayout>
